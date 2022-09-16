@@ -13,12 +13,11 @@ todo('Hello My Name is Tauqeer and this is #todo') => true
 ## 3. Create Examples as Tests
 
 todo('') => false
-todo('#todo') => true
-todo('Hello #todo') => true
-todo('Hello Tauqeer #todo.') => true
-todo('Hello#todoTauqeer') => true
+todo('#TODO') => true
+todo('Hello #TODO') => true
+todo('Hello#TODOTauqeer') => true
 todo('Hello') => false
-todo('Hello todo') => false
+todo('Hello TODO') => false
 todo('Hello #') => false
 todo('Hello#todTauqeer') => false
 
